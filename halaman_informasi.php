@@ -14,10 +14,10 @@
 <link href="css/colors/default.css" id="theme"  rel="stylesheet">
 </head>
 <body>
-Halaman Lihat data vaksin
-Anda terlogin sebagai <?php echo $_SESSION["privilege"] ?> !!
-<form class="white-box" id="form1" name="form1" method="post" action="halaman_informasi.php">
-<input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Informasi">
+Halaman Informasi vaksin
+Anda terlogin sebagai <?php session_start(); echo $_SESSION["privilege"]; ?> !!
+<form class="white-box" id="form1" name="form1" method="post" action="index_read_dbdatavaksin.php">
+<input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Lihat">
 </form><br></br>
 <form class="white-box" id="form1" name="form1" method="post" action="logout.php">
 <input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Logout">
