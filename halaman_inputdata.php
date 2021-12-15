@@ -47,7 +47,7 @@ session_start()
                   }
                 ?>
                   <li class="nav-item">
-                    <a class="nav-link" href="index_read_dbdatavaksi.php" style="padding-left: 30px;">Data</a>
+                    <a class="nav-link" href="index_read_dbdatavaksin.php" style="padding-left: 30px;">Data</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="halaman_informasi.php" style="padding-left: 30px;">Informasi</a>
@@ -70,7 +70,7 @@ session_start()
               <div class="card">
                 <div class="card-body">
                   <!-- Form Input -->
-                  <form action="">
+                  <form method="post" action="index_create_dbdatavaksin.php">
                     <fieldset>
                       <legend>Input Data Vaksin</legend>
                       <div class="row">

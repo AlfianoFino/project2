@@ -18,14 +18,17 @@
 session_start();
 
 echo "You have been logged out.";
+$new = "homepage.php";
 
 session_destroy();
 
 ?>
 
-<form class="white-box" id="form1" name="form1" method="post" action="halaman_signin.php">
-<br>
-Kembali ke halaman login?
-</br>
-<input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Back to Login">
-</form><br></br>
+<script>
+function returnToHome(){ 
+    var newLocation = "<?php echo $new; ?>";
+    window.location = newLocation;
+};
+
+setInterval(returnToHome, 2000);
+</script>

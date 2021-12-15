@@ -20,7 +20,7 @@ session_start()
   <!-- ============================== Navigasi Bar ================================ -->
   <nav class="navbar navbar-dark navbar-expand bg-primary fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="halaman_informasi.php">
         <table>
           <tr>
             <td>
