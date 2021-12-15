@@ -23,7 +23,7 @@ class m_dbdatavaksin{
   }
 
   public function getData($NIK) {
-    $proker = $this->database->query("SELECT * FROM $this->tablename WHERE NIK = ''$NIK");
+    $proker = $this->database->query("SELECT * FROM $this->tablename WHERE NIK = '$NIK'");
 	return $proker;
   }
 

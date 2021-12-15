@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.headerBg {
+  width: 100%;
+  height: 100px;
+  background: rgba(50,214,185,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  
+  background: #32D7B9;
+}
+.headerTitle {
+  position: absolute;
+  width: 171px;
+  height: 44px;
+  left: 39px;
+  top: 28px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.triangle1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 169px;
+  top: 347px;
+  
+  background: #5B5B5B;
+  transform: rotate(-30deg);
+}
+
+.triangle2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 169px;
+  top: 556px;
+  
+  background: #5B5B5B;
+  transform: rotate(-30deg)
+}
+
+.triangle3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 169px;
+  top: 763px;
+  
+  background: #5B5B5B;
+  transform: rotate(-30deg);
+}
+.headerButton{
+  position: absolute;
+  width: 447px;
+  height: 29px;
+  left: 960px;
+  top: 36px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+}
+.informasiVaksin {
+  position: absolute;
+  width: 315px;
+  height: 44px;
+  left: 106px;
+  top: 222px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;  
+  
+  color: #000000;
+}
+.informasiVaksinBg {
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 93px;
+  top: 211px;
+  
+  background: #32D7B9;
+  border-radius: 100px;
+}
+.vaksin1 {
+  position: absolute;
+  width: 140px;
+  height: 42px;
+  left: 237px;
+  top: 332px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #000000;
+}
+.vaksinInfo1 {
+  position: absolute;
+  width: 1115px;
+  height: 116px;
+  left: 237px;
+  top: 386px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  
+  color: #000000;
+}
+.vaksin2 {
+  position: absolute;
+  width: 140px;
+  height: 42px;
+  left: 238px;
+  top: 541px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #000000;
+}
+.vaksinInfo2 {
+  position: absolute;
+  width: 1115px;
+  height: 116px;
+  left: 238px;
+  top: 595px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  
+  color: #000000;
+}
+.vaksin3 {
+  position: absolute;
+  width: 140px;
+  height: 42px;
+  left: 237px;
+  top: 747px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #000000;
+}
+.vaksinInfo3 {
+  position: absolute;
+  width: 1115px;
+  height: 116px;
+  left: 238px;
+  top: 801px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  
+  color: #000000;
+}
+.underline {
+  position: absolute;
+  width: 110px;
+  height: 0px;
+  left: 1114px;
+  top: 65px;
+  
+  border: 2px solid #000000;
+}
+
+.name {
+  color: #fff;
+}

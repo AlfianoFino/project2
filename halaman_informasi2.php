@@ -14,10 +14,10 @@
 <link href="css/colors/default.css" id="theme"  rel="stylesheet">
 </head>
 <body>
-Halaman Lihat data vaksin
-Anda terlogin sebagai <?php error_reporting(E_ERROR | E_WARNING | E_PARSE); session_start(); echo $_SESSION["privilege"]; ?>  !!
-<form class="white-box" id="form1" name="form1" method="post" action="halaman_informasi.php">
-<input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Informasi">
+Halaman Informasi vaksin
+Anda terlogin sebagai <?php session_start(); echo $_SESSION["privilege"]; ?> !!
+<form class="white-box" id="form1" name="form1" method="post" action="index_read_dbdatavaksin.php">
+<input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Lihat">
 </form><br></br>
 <form class="white-box" id="form1" name="form1" method="post" action="logout.php">
 <input class="btn btn-info btn-rounded text-uppercase waves-effect waves-light" type="submit" name="button" id="button" value="Logout">
@@ -30,19 +30,6 @@ if($_SESSION["privilege"] == "admin"){
     "</form><br></br>";
 }
 ?>
-<br><br>
-<?php
-while($prin = $proker->fetch_assoc()){
-    echo "<tr>",
-	"<td>$prin[nama]</td>",
-    "<td>$prin[NIK]</td>",
-    "<td>$prin[jenisvaksin]</td>",
-    "<td>$prin[jadwalvaksin1]</td>",
-    "<td>$prin[jadwalvaksin2]</td>",
-    "</tr>";
-}?>
-
-
 
 </body>
 </html>
